@@ -1,0 +1,74 @@
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: flex-start;
+    margin: 1%;
+    min-height: 40px;
+    width: 100%;
+}
+
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 50px;
+}
+
+div[class*="col-"] {
+    margin: 0 1%;
+    min-height: 0;
+}
+
+.col-1 {
+    width: 8.16666667%;
+}
+
+.col-2 {
+    width: 16.3333333333%;
+}
+
+.col-3 {
+    width: 24.5%;
+}
+
+.col-4 {
+    width: 32.6666666667%;
+}
+
+.col-5 {
+    width: 40.8333333333%;
+}
+
+.col-6 {
+    width: 49%;
+}
+
+.col-7 {
+    width: 57.1666666665%;
+}
+
+.col-8 {
+    width: 65.3333333333%;
+}
+
+.col-9 {
+    width: 73.5000000002%;
+}
+
+.col-10 {
+    width: 81.6666666667%;
+}
+
+.col-11 {
+    width: 89.8333333333%;
+}
+
+.col-12 {
+    width: 100%;
+}

@@ -19,3 +19,9 @@ button:hover {
     color: #3bc3ff;
     cursor: pointer;
 }
+
+button:disabled {
+    background-color: #2d82af;
+    cursor: not-allowed;
+    transition: none;
+}

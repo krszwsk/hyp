@@ -1,7 +1,3 @@
-body {
-    font-size: 15px;
-}
-
 input[type="text"], input[type="password"], input[type="number"], textarea {
     border: 1px #636363 solid;
     border-radius: 5px;

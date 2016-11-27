@@ -11,3 +11,12 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.code {
+    background-color: #e3e3e3;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 20px 10px;
+}

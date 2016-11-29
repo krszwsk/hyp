@@ -10,7 +10,8 @@ gulp.task('default', ['css'], function () {
 })
 
 gulp.task('css', function () {
-  return gulp.src(['src/main.css', 'src/typography.css', 'src/grid.css', 'src/forms.css', 'src/buttons.css', 'src/utils.css'])
+  return gulp.src(['src/main.css', 'src/typography.css', 'src/grid.css',
+    'src/forms.css', 'src/buttons.css', 'src/utils.css', 'src/code.css'])
     .pipe(cleanCSS({
       processImport: false
     }))

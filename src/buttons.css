@@ -1,12 +1,15 @@
 button {
-    background-color: #2a2a2a;
-    border: 1px solid #636363;
-    border-radius: 5px;
-    color: white;
     font-weight: bold;
     outline: none;
     padding: 10px;
     text-transform: uppercase;
+}
+
+button {
+    background-color: #2a2a2a;
+    border: 1px solid #636363;
+    border-radius: 5px;
+    color: white;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
@@ -22,6 +25,26 @@ button:hover:not([disabled]) {
 
 button:disabled {
     background-color: #3a3a3a;
+    cursor: not-allowed;
+    transition: none;
+}
+
+.btn-light {
+    background-color: white;
+    border: 2px solid #2a2a2a;
+    border-radius: 5px;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn-light:hover:not([disabled]) {
+    background-color: #2a2a2a;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-light:disabled {
+    background-color: #e3e3e3;
     cursor: not-allowed;
     transition: none;
 }

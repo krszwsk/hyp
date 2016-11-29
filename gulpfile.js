@@ -11,7 +11,9 @@ gulp.task('default', ['css'], function () {
 
 gulp.task('css', function () {
   return gulp.src(['src/main.css', 'src/typography.css', 'src/grid.css', 'src/forms.css', 'src/buttons.css', 'src/utils.css'])
-    .pipe(cleanCSS())
+    .pipe(cleanCSS({
+      processImport: false
+    }))
     .pipe(concat('hyp.min.css'))
     .pipe(header(desc))
     .pipe(gulp.dest('dist'))

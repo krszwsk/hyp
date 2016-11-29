@@ -4,183 +4,254 @@
     <meta charset="UTF-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>hyp</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="css/hyp.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-    <div class="container">
-        <div class="typography">
-            <h1>Typography</h1>
-            <div class="row">
-                <div class="col-6">
-                    <h2>Headers</h2>
-                    <p>
-                        Headers are using font Oswald, to differentiate them from the rest of the content.
-                    </p>
-                </div>
-                <div class="col-6">
-                    <h1>Header 1</h1>
-                    <h2>Header 2</h2>
-                    <h3>Header 3</h3>
-                    <h4>Header 4</h4>
-                    <h5>Header 5</h5>
-                    <h5>Header 6</h5>
-                </div>
+    <div class="hello full center-vh-parent">
+        <div class="content center-vh">
+            <img src="img/hyp.svg" class="">
+            <div class="desc">
+                <p>
+                    Minimal, responsive CSS framework for lazy developers.
+                </p>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <h2>Other</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <p class="code">
-                        &lt;p class=".small"&gt;Small text&lt;/p&gt;
-                    </p>
-                </div>
-                <div class="col-6">
-                    <p class="small">
-                        Small text
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-6">
-                    <p class="code">
-                        &lt;p class="large"&gt;Large text&lt;/p&gt;
-                    </p>
-                </div>
-                <div class="col-6">
-                    <p class="large">
-                        Large text
-                    </p>
-                </div>
-            </div>
+            <button class="btn-light">Check it out</button>
         </div>
-
-        <div class="forms">
-            <h1>Forms</h1>
-            <div class="row">
-                <div class="col-6">
-                    <p class="code">
-                        &lt;input type="text"&gt;
-                    </p>
-                </div>
-                <div class="col-6">
-                    <input type="text">
-                </div>
-            </div>
-        </div>
-
-        <div class="buttons">
-            <h1>Buttons</h1>
-            <div class="row">
-                <div class="col-6">Default button:</div>
-                <div class="col-6"><button>default</button></div>
-            </div>
-            <div class="row">
-                <div class="col-6">Disabled button: </div>
-                <div class="col-6"><button disabled>disabled</button></div>
-            </div>
-
-        </div>
-
-        <div class="grid">
-            <h1>Grid</h1>
-            <div class="row">
-                <div class="col-12">TWELVE</div>
-            </div>
-            <div class="row">
-                <div class="col-1">ONE</div>
-                <div class="col-11">ELEVEN</div>
-            </div>
-            <div class="row">
-                <div class="col-2">TWO</div>
-                <div class="col-10">TEN</div>
-            </div>
-            <div class="row">
-                <div class="col-3">THREE</div>
-                <div class="col-9">NINE</div>
-            </div>
-            <div class="row">
-                <div class="col-4">FOUR</div>
-                <div class="col-8">EIGHT</div>
-            </div>
-            <div class="row">
-                <div class="col-5">FIVE</div>
-                <div class="col-7">SEVEN</div>
-            </div>
-            <div class="row">
-                <div class="col-6">SIX</div>
-                <div class="col-6">SIX</div>
-            </div>
-            <div class="row">
-                <div class="col-7">SEVEN</div>
-                <div class="col-5">FIVE</div>
-            </div>
-            <div class="row">
-                <div class="col-8">EIGHT</div>
-                <div class="col-4">FOUR</div>
-            </div>
-            <div class="row">
-                <div class="col-9">NINE</div>
-                <div class="col-3">THREE</div>
-            </div>
-            <div class="row">
-                <div class="col-10">TEN</div>
-                <div class="col-2">TWO</div>
-            </div>
-            <div class="row">
-                <div class="col-11">ELEVEN</div>
-                <div class="col-1">ONE</div>
-            </div>
-            <div class="row">
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-                <div class="col-1">ONE</div>
-            </div>
-            <div class="row">
-                <div class="col-2">TWO</div>
-                <div class="col-2">TWO</div>
-                <div class="col-2">TWO</div>
-                <div class="col-2">TWO</div>
-                <div class="col-2">TWO</div>
-                <div class="col-2">TWO</div>
-            </div>
-            <div class="row">
-                <div class="col-3">THREE</div>
-                <div class="col-3">THREE</div>
-                <div class="col-3">THREE</div>
-                <div class="col-3">THREE</div>
-                <div class="col-3">THREE</div>
-            </div>
-            <div class="row">
-                <div class="col-4">FOUR</div>
-                <div class="col-4">FOUR</div>
-                <div class="col-4">FOUR</div>
-                <div class="col-4">FOUR</div>
-            </div>
-            <div class="row">
-                <div class="col-5">FIVE</div>
-                <div class="col-5">FIVE</div>
-                <div class="col-2">TWO</div>
-            </div>
-            <div class="row">
-                <div class="col-6">SIX</div>
-                <div class="col-6">SIX</div>
-            </div>
-        </div>
-
     </div>
+
+    <div class="container">
+        <div id="docs" class="docs">
+            <div class="typography">
+                <h1>Typography</h1>
+                <div class="row">
+                    <div class="col-6">
+                        <h2>Headers</h2>
+                        <p>
+                            Headers are using font Oswald,
+                            to differentiate them from the rest of the content.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h1>Header 1</h1>
+                        <h2>Header 2</h2>
+                        <h3>Header 3</h3>
+                        <h4>Header 4</h4>
+                        <h5>Header 5</h5>
+                        <h5>Header 6</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Other</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                         <pre>
+                             <code class="html">
+    &lt;p class=&quot;small&quot;&gt;Small text&lt;/p&gt;
+                             </code>
+                         </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <p class="small center-vh">
+                            Small text
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <pre>
+                            <code class="html">
+    &lt;p class="large"&gt;Large text&lt;/p&gt;
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <p class="large center-vh">
+                            Large text
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forms">
+                <h1>Forms</h1>
+                <div class="row">
+                    <div class="col-6">
+                        <pre>
+                            <code class="html">
+    &lt;input type="text"&gt;
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <input type="text" class="center-vh">
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <h1>Buttons</h1>
+                <div class="row">
+                    <div class="col-6">
+                        <pre>
+                            <code class="html">
+    &lt;button&gt;default&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <button class="center-vh">default</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <pre>
+                            <code>
+    &lt;button disabled&gt;default&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <button disabled class="center-vh">disabled</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <pre>
+                            <code class="html">
+&lt;button class="btn-light"&gt;light&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <button class="btn-light center-vh">light</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <pre>
+                            <code class="html">
+&lt;button class="btn-light" disabled&gt;light&lt;/button&gt;
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="col-6 center-vh-parent">
+                        <button class="btn-light center-vh" disabled>light</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="grid">
+                <h1>Grid</h1>
+                <div class="grid-example">
+                    <div class="row">
+                        <div class="col-12">TWELVE</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">ONE</div>
+                        <div class="col-11">ELEVEN</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">TWO</div>
+                        <div class="col-10">TEN</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">THREE</div>
+                        <div class="col-9">NINE</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">FOUR</div>
+                        <div class="col-8">EIGHT</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">FIVE</div>
+                        <div class="col-7">SEVEN</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">SIX</div>
+                        <div class="col-6">SIX</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7">SEVEN</div>
+                        <div class="col-5">FIVE</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">EIGHT</div>
+                        <div class="col-4">FOUR</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">NINE</div>
+                        <div class="col-3">THREE</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">TEN</div>
+                        <div class="col-2">TWO</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11">ELEVEN</div>
+                        <div class="col-1">ONE</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <pre>
+                            <code class="html">
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;TWELVE&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-1&quot;&gt;ONE&lt;/div&gt;
+        &lt;div class=&quot;col-11&quot;&gt;ELEVEN&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- ... --&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-11&quot;&gt;ELEVEN&lt;/div&gt;
+        &lt;div class=&quot;col-1&quot;&gt;ONE&lt;/div&gt;
+    &lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="utils">
+                <h1>Utilities</h1>
+                <div class="row">
+                    <div class="col-6">
+                        Classes that do things you would usually write yourself.
+                    </div>
+                    <div class="col-6">
+                        <pre>
+                            <code class="html">
+    &lt;!-- Makes div the size of the whole screen --&gt;
+    &lt;div class=&quot;full&quot;&gt;&lt;/div&gt;
+    &lt;!-- Pulls div to the left --&gt;
+    &lt;div class=&quot;pull-left&quot;&gt;&lt;/div&gt;
+    &lt;!-- Pulls div to the right --&gt;
+    &lt;div class=&quot;pull-right&quot;&gt;&lt;/div&gt;
+    &lt;!-- Centers everything inside div --&gt;
+    &lt;div class=&quot;center-inside&quot;&gt;&lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

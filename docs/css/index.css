@@ -1,8 +1,25 @@
-.grid .row div {
+.hello {
+    background-color: #2a2a2a;
+    position: relative;
+}
+
+.hello .content {
+    display: block;
+    text-align: center;
+
+    color: white;
+    font-size: 24px;
+}
+
+.grid .grid-example .row div {
     background-color: #ff7c5c;
     border-radius: 10px;
     color: white;
     font-weight: 900;
     line-height: 40px;
     text-align: center;
+}
+
+code {
+    font-size: 12px;
 }

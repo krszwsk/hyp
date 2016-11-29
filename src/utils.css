@@ -6,17 +6,31 @@
     float: right;
 }
 
-.center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.code {
+pre > code {
     background-color: #e3e3e3;
     border: 1px solid #D7D7D7;
     border-radius: 5px;
     font-family: monospace;
     font-size: 12px;
     padding: 20px 10px;
+}
+
+.full {
+    width: 100%;
+    height: 100vh;
+}
+
+.center-vh-parent {
+    position: relative;
+}
+
+.center-vh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

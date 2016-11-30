@@ -1,3 +1,7 @@
+## [0.0.4] - 2016-11-30
+### Changed
+- `.col-X`classes to `.cX`, because it's a framework for lazy people :T
+
 ## [0.0.3] - 2016-11-29
 ### Added
 - `btn-light`

@@ -21,78 +21,78 @@
     min-height: 50px;
 }
 
-.row [class^="col-"], .row [class*=" col-"] {
+.row [class^="c-"], .row [class*=" c-"] {
     margin: 0 1%;
     min-height: 0;
 }
 
-.row .c1 {
+.row .c-1 {
     -ms-flex: 1;
     -webkit-flex: 1;
     flex: 1;
 }
 
-.row .c2 {
+.row .c-2 {
     -ms-flex: 2;
     -webkit-flex: 2;
     flex: 2;
 }
 
-.row .c3 {
+.row .c-3 {
     -ms-flex: 3;
     -webkit-flex: 3;
     flex: 3;
 }
 
-.row .c4 {
+.row .c-4 {
     -ms-flex: 4;
     -webkit-flex: 4;
     flex: 4;
 }
 
-.row .c5 {
+.row .c-5 {
     -ms-flex: 5;
     -webkit-flex: 5;
     flex: 5;
 }
 
-.row .c6 {
+.row .c-6 {
     -ms-flex: 6;
     -webkit-flex: 6;
     flex: 6;
 }
 
-.row .c7 {
+.row .c-7 {
     -ms-flex: 7;
     -webkit-flex: 7;
     flex: 7;
 }
 
-.row .c8 {
+.row .c-8 {
     -ms-flex: 8;
     -webkit-flex: 8;
     flex: 8;
 }
 
-.row .c9 {
+.row .c-9 {
     -ms-flex: 9;
     -webkit-flex: 9;
     flex: 9;
 }
 
-.row .c10 {
+.row .c-10 {
     -ms-flex: 10;
     -webkit-flex: 10;
     flex: 10;
 }
 
-.row .c11 {
+.row .c-11 {
     -ms-flex: 11;
     -webkit-flex: 11;
     flex: 11;
 }
 
-.row .c12 {
+.row .c-12 {
     -ms-flex: 12;
     -webkit-flex: 12;
     flex: 12;
@@ -109,7 +109,7 @@
         margin: 0;
     }
 
-    .row [class^="col-"], .row [class*=" col-"] {
+    .row [class^="c-"], .row [class*=" c-"] {
         margin: 1%;
         flex: 0 0 100%;
     }

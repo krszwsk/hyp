@@ -1,3 +1,7 @@
+## [0.0.6] 2016-12-03
+### Fixed
+- Grid again in `width` instead of `flex`.
+
 ## [0.0.5] 2016-11-30
 ### Changed
 - Well that was stoopid. Changed `.cX` to `.c-X`, because we can't be too lazy.

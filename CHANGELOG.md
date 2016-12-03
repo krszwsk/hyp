@@ -1,3 +1,13 @@
+## [0.0.7] 2016-12-03
+### Added
+- Offsets for grid (`o-1` to `o-12`). It has a few quirks
+though, for example if you offset 2 columns and then offset
+1 column, they won't be aligned perfectly because of
+`margin-left` on each column element.
+
+### Changed
+- Better margin asignments in grid
+
 ## [0.0.6] 2016-12-03
 ### Fixed
 - Grid again in `width` instead of `flex`.

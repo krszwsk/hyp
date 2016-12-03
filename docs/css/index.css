@@ -11,7 +11,7 @@
     font-size: 24px;
 }
 
-.grid .grid-example .row div {
+.grid .grid-example .row div, .grid .offset-example .row div {
     background-color: #ff7c5c;
     border-radius: 10px;
     color: white;

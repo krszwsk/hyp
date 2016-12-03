@@ -21,9 +21,16 @@
     min-height: 50px;
 }
 
-.row [class^="c-"], .row [class*=" c-"] {
-    margin: 0 1%;
-    min-height: 0;
+.row [class*="c-"] {
+    min-height: 20px;
+}
+
+.row [class*="c-"]:not([class*="o-"]) {
+    margin-left: 1%;
+}
+
+.row [class*="c-"]:first-child:not([class*="o-"]) {
+    margin-left: 0;
 }
 
 .row .c-1 {
@@ -72,6 +79,54 @@
 
 .row .c-12 {
     width: 100%;
+}
+
+.row .o-1 {
+    margin-left: 8.33333333333%;
+}
+
+.row .o-2 {
+    margin-left: 16.6666667%;
+}
+
+.row .o-3 {
+    margin-left: 25%;
+}
+
+.row .o-4 {
+    margin-left: 33.3333333333%;
+}
+
+.row .o-5 {
+    margin-left: 41.6666666667%;
+}
+
+.row .o-6 {
+    margin-left: 50%;
+}
+
+.row .o-7 {
+    margin-left: 58.3333333333%;
+}
+
+.row .o-8 {
+    margin-left: 66.6666666667%;
+}
+
+.row .o-9 {
+    margin-left: 75%;
+}
+
+.row .o-10 {
+    margin-left: 83.3333333333%;
+}
+
+.row .o-11 {
+    margin-left: 91.6666666667%;
+}
+
+.row .o-12 {
+    margin-left: 100%;
 }
 
 @media screen and (max-width: 768px) {

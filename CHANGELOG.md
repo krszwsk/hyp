@@ -1,3 +1,7 @@
+## [0.0.8] 2016-12-03
+### Added
+- stretching buttons with `.stretch`
+
 ## [0.0.7] 2016-12-03
 ### Added
 - Offsets for grid (`o-1` to `o-12`). It has a few quirks

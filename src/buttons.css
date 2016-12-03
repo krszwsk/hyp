@@ -48,3 +48,8 @@ button:disabled {
     cursor: not-allowed;
     transition: none;
 }
+
+.stretch {
+    display: block;
+    width: 100%;
+}

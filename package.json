@@ -1,6 +1,6 @@
 {
   "name": "hypcss",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Minimal CSS framework for lazy developers",
   "main": "gulpfile.js",
   "scripts": {

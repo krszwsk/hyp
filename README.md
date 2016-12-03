@@ -4,7 +4,5 @@
 # Getting started
 `npm install hypcss`
 
-`bower install hypcss`
-
 ## Found a bug?
 Submit an [issue](https://github.com/krszwsk/hyp/issues)

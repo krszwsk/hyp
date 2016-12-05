@@ -1,3 +1,9 @@
+# hyp changelog
+
+## [0.0.11] 2016-12-05
+### Added
+- `a` default styling
+
 ## [0.0.8] 2016-12-03
 ### Added
 - stretching buttons with `.stretch`

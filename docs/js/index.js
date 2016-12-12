@@ -5,7 +5,7 @@ hljs.initHighlightingOnLoad()
 $(document).ready(function () {
   $('.hello button').click(function () {
     $('html, body').animate({
-      scrollTop: $('#docs').offset().top,
+      scrollTop: $('#why').offset().top,
     }, 'slow')
   })
 })

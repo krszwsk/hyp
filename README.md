@@ -5,7 +5,7 @@
 `npm install hypcss`
 
 ## Or use `unpkg` CDN:
-`<link rel="stylesheet" type="text/css" href="//unpkg.com/hypcss@0.0.11/dist/hyp.min.css">`
+`<link rel="stylesheet" type="text/css" href="//unpkg.com/hypcss@0.1.0/dist/hyp.min.css">`
 
 # [Documentation](http://krszwsk.co/hyp/#docs)
 
